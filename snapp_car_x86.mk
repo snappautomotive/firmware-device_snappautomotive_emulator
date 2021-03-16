@@ -10,7 +10,7 @@ PRODUCT_COPY_FILES += \
     device/snappautomotive/emulator/bootanimations/bootanimation.zip:system/media/bootanimation.zip
 
 EMULATOR_VENDOR_NO_SOUND := true
-PRODUCT_NAME := sa_car_x86
-PRODUCT_DEVICE := generic_x86
+PRODUCT_NAME := snapp_car_x86
+PRODUCT_DEVICE := generic_car_x86
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Snapp Automotive on x86 emulator
