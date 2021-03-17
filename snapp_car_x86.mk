@@ -9,6 +9,8 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, device/generic/car/emulator/aosp_car_emulator.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_x86.mk)
 
+PRODUCT_PACKAGES += osmdroid
+
 EMULATOR_VENDOR_NO_SOUND := true
 PRODUCT_NAME := snapp_car_x86
 PRODUCT_DEVICE := generic_car_x86
