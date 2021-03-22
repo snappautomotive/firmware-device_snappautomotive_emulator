@@ -2,9 +2,12 @@
 
 PRODUCT_PACKAGE_OVERLAYS := device/generic/car/common/overlay
 
-# Boot animation
 PRODUCT_COPY_FILES += \
-    device/snappautomotive/emulator/bootanimations/bootanimation.zip:system/media/bootanimation.zip
+    device/snappautomotive/emulator/bootanimations/bootanimation.zip:system/media/bootanimation.zip \
+    frameworks/native/data/etc/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml \
+    frameworks/native/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml
+
+
 
 $(call inherit-product, device/generic/car/emulator/aosp_car_emulator.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_x86.mk)
