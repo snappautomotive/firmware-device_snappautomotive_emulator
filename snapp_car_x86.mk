@@ -1,6 +1,6 @@
 # Copyright (c)2021 Al Sutton
 
-PRODUCT_PACKAGE_OVERLAYS := device/generic/car/common/overlay
+PRODUCT_PACKAGE_OVERLAYS := device/generic/car/common/overlay device/snappautomotive/emulator/overlay
 
 PRODUCT_COPY_FILES += \
     device/snappautomotive/emulator/bootanimations/bootanimation.zip:system/media/bootanimation.zip \
