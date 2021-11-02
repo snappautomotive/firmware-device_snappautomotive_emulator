@@ -1,5 +1,7 @@
 PRODUCT_PACKAGE_OVERLAYS := device/snappautomotive/emulator/overlay
 
+EMULATOR_VENDOR_NO_SENSORS := true
+
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml \
     frameworks/native/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml
