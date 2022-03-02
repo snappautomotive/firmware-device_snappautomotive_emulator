@@ -6,6 +6,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml \
     frameworks/native/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml
 
+EXCLUDE_FIRMWARE_UPDATER := true
+
 include device/snappautomotive/common/additions.mk
 
 $(call inherit-product, device/generic/car/emulator/aosp_car_emulator.mk)
