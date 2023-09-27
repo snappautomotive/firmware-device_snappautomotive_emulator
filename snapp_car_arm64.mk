@@ -14,6 +14,6 @@ $(call inherit-product, device/generic/car/emulator/audio/car_emulator_audio.mk)
 
 EMULATOR_VENDOR_NO_SOUND := true
 PRODUCT_NAME := snapp_car_arm64
-PRODUCT_DEVICE := generic_car_arm64
+PRODUCT_DEVICE := emulator_arm64
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Snapp Automotive emulator for arm64
