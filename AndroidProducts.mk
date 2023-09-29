@@ -2,9 +2,8 @@
 
 PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/snapp_car_x86_64.mk \
+	$(LOCAL_DIR)/snapp_car_x86.mk \
         $(LOCAL_DIR)/snapp_car_arm64.mk 
-
-#	$(LOCAL_DIR)/snapp_car_x86.mk \ <-- Disabled, does not boot
 
 COMMON_LUNCH_CHOICES := \
 	snapp_car_x86_64-userdebug \
