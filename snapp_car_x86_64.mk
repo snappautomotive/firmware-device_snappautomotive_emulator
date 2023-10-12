@@ -2,8 +2,8 @@ PRODUCT_PACKAGE_OVERLAYS := device/snappautomotive/emulator/overlay
 
 EXCLUDE_FIRMWARE_UPDATER := true
 
-include device/snappautomotive/common/additions.mk
 
+$(call inherit-product, device/snappautomotive/common/additions.mk)
 $(call inherit-product, device/generic/car/emulator/aosp_car_emulator.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/sdk_x86_64.mk)
 
