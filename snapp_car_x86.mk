@@ -6,4 +6,5 @@ $(call inherit-product, device/snappautomotive/common/additions.mk)
 $(call inherit-product, device/generic/car/aosp_car_x86.mk)
 
 PRODUCT_NAME := snapp_car_x86
+PRODUCT_DEVICE := emulator_x86
 PRODUCT_MODEL := Snapp Automotive emulator for x86
