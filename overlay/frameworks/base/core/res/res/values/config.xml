@@ -28,4 +28,6 @@
     <string-array translatable="false" name="config_ethernet_interfaces">
         <item>eth0;11,12,14;;</item>
     </string-array>
+
+    <string name="config_defaultDialer" translatable="false">com.android.car.dialer</string>
 </resources>
