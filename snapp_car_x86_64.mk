@@ -1,6 +1,9 @@
 PRODUCT_PACKAGE_OVERLAYS := device/snappautomotive/emulator/overlay
 
 EXCLUDE_FIRMWARE_UPDATER := true
+ENABLE_REAR_VIEW_CAMERA_SAMPLE := true
+ENABLE_EVS_SAMPLE := true
+
 
 $(call inherit-product, device/snappautomotive/common/additions.mk)
 $(call inherit-product, device/generic/car/emulator/aosp_car_emulator.mk)
