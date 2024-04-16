@@ -50,7 +50,7 @@ $(call inherit-product, device/generic/goldfish/64bitonly/product/arm64-vendor.m
 
 EMULATOR_VENDOR_NO_SOUND := true
 PRODUCT_NAME := sdk_car_arm64
-PRODUCT_DEVICE := emulator_car64_arm64
+PRODUCT_DEVICE := emulator_car_arm64
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Car on arm64 emulator
 
