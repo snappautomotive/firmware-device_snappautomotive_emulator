@@ -1,5 +1,4 @@
 PRODUCT_PACKAGE_OVERLAYS := \
-    device/generic/car/common/overlay \
     device/snappautomotive/emulator/overlay
 
 EXCLUDE_FIRMWARE_UPDATER := true
