@@ -21,5 +21,6 @@
     <bool name="def_device_provisioned">true</bool>
     <bool name="def_user_setup_complete">true</bool>
 
-    <bool name="def_user_setup_complete">true</bool>
+    <!-- WiFi on at boot so we can get map data -->
+    <bool name="def_wifi_on">true</bool>
 </resources>
