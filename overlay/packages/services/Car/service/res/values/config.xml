@@ -18,6 +18,9 @@
 -->
 <!-- Resources to configure car service based on each OEM's preference. -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Disable the startup dialog -->
+    <string name="config_userNoticeUiService" translatable="false"></string>
+
     <!-- The camera Activity name for EVS, if defined, the Activity will be launched by
          CarEvsService. -->
     <string name="config_evsCameraActivity" translatable="false">
