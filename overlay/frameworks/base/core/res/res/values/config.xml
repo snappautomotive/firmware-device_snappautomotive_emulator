@@ -31,11 +31,4 @@
     </string-array>
 
     <string name="config_defaultDialer" translatable="false">com.android.car.dialer</string>
-
-    <!-- Enable multi-user. -->
-    <bool name="config_enableMultiUserUI">true</bool>
-    <!-- If true, all guest users created on the device will be ephemeral. -->
-    <bool name="config_guestUserEphemeral" translatable="false">true</bool>
-    <!--  Ensure multi-user support is enabled -->
-    <integer name="config_multiuserMaximumUsers">4</integer>
 </resources>
